@@ -1,3 +1,5 @@
+include compat.4th
+
 \ generate the machine code that will return
 \ false for mozilla::dom::Navigator::Webdriver()
 

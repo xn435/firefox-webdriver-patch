@@ -62,22 +62,8 @@ See [the debian wiki](https://wiki.debian.org/HowToGetABacktrace#Installing_the_
 
 #### Installing Dependencies
 
-Install latest Gforth:
-
 ```console
-$ wget https://www.complang.tuwien.ac.at/forth/gforth/Snapshots/current/gforth.tar.xz
-$ tar xvfJ gforth.tar.xz
-$ cd gforth-*
-$ ./install-deps.sh
-$ ./configure
-$ make
-$ sudo make install
-```
-
-Install other deps
-
-```console
-$ sudo apt install gdb firefox-esr-dbgsym
+$ sudo apt install gdb gforth firefox-esr-dbgsym
 ```
 
 ## Other Ways of Achieving the Same Goal
